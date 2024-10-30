@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens com Texto</title>
+    <h1>Presidentes da época</h1>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .imagem-container {
+            position: relative;
+            margin: 20px 0;
+        }
+
+        .imagem-container img {
+            width: 300px; 
+            height: auto;
+        }
+
+        .texto {
+            position: absolute;
+            bottom: 24px; 
+            left: 10px; 
+            color:rgba(174, 235, 8, 0.911);
+            background-color: rgb(0,0,0,0); 
+            padding: 7px; 
+            border-radius: 8px; 
+
+         
+        }
+    </style>
+</head>
+<body>
+
+    <div class="imagem-container">
+        <img src="sales.jpg" alt="sales">
+        <div class="texto">Sales o primeiro a comandar na época da republica café com leite</div>
+    </div>
+
+    <div class="imagem-container">
+        <img src="Cesário.jpg" alt="">
+        <div class="texto">Cesário comandate do estado de Minas Gerais na época</div>
+    </div>
+
+</body>
+</html>
